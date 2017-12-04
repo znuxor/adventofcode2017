@@ -27,7 +27,6 @@ for line in data_input:
         if word_anagram_list not in anagrams_list:
             anagrams_list.append(word_anagram_list)
 
-    
     if len(anagrams_list) == len(line.split(' ')):
         total_valid += 1
 
